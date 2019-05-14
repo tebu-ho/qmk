@@ -617,13 +617,14 @@ function update_user()
         }
     }
     }
+
 function filter_media( $query ) {
     // admins get to see everything
     if ( current_user_can( 'upload_files' ) )
         $query['subscriber'] = get_current_user_id();
     return $query;
 }
-function qmk_filter_media($query) {
+function qmk_filter_media( $query ) {
     // admins get to see everything
     if (!current_user_can('manage_options'))
         $query['author'] = get_current_user_id();
