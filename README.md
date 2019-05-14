@@ -1,2 +1,2 @@
 # qmk
-WordPress theme for Question Mark Kaffy (QMK)
+Web development project for Question Mark Kaffy (QMK) that is built on WordPress.
